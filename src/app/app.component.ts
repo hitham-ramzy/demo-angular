@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {HttpErrorResponse, HttpResponse} from '@angular/common/http';
 import {VehicleService} from './entities/vehicle/vehicle.service';
 import {IVehicle, VehicleCriteria} from './entities/vehicle/vehicle.model';
-import {load} from '@angular/core/src/render3';
 
 @Component({
   selector: 'app-root',
