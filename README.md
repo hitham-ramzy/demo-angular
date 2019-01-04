@@ -1,6 +1,11 @@
 # AltenFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
++ This application was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
++ This application also using font awesome.
++ This application is a demo for angular application calling alten resources application to get the list of vehicles with their customers
++ You can filter the result with form in the page and click search button
+
+## 
 
 ## Development server
 
@@ -25,3 +30,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Docker container 
+To create docker container for alten frontend application please run:
+
+    docker build -t alten-frontend .
+    
+Then 
+    
+    docker run -p 4200:4200 --rm alten-frontend
+     
+The Application will run on port 4200
